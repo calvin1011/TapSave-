@@ -10,12 +10,15 @@ espressoCore = "3.7.0"
 compose-bom = "2025.12.01"
 hilt = "2.52"
 ksp = "2.0.21-1.0.28"
+navigation = "2.8.5"
 
 [libraries]
 # Core
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version = "2.10.0" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version = "1.12.2" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation" }
+androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version = "1.2.0" }
 
 # Compose BOM (handles all compose versions automatically)
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }

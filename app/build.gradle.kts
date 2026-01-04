@@ -70,6 +70,10 @@ dependencies {
     implementation(libs.androidx.compose.material3)
     implementation("com.google.android.material:material:1.13.0")
 
+    // Navigation
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.hilt.navigation.compose)
+
     // Hilt
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
